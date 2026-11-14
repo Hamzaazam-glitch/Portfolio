@@ -19,34 +19,34 @@ export function renderNowTerminal(containerId) {
       </div>
       <div class="terminal-body font-mono">
         <div class="terminal-line"><span class="terminal-prompt">#</span> <span class="text-accent-gold">SYSTEM STATUS // NOW</span></div>
-        <div class="terminal-line"><span class="text-muted">Updated: September 2026 • Karachi, Pakistan (PK)</span></div>
+        <div class="terminal-line"><span class="text-muted">Updated: November 2026 • Karachi, Pakistan (PK)</span></div>
         <div class="terminal-divider"></div>
 
         <div class="terminal-section">
           <div class="terminal-label">// CURRENT FOCUS & SPRINT</div>
           <p class="terminal-val">
-            <span class="terminal-marker">▶</span> Architecting <strong>Enterprise SAP Accounts Payable Automation</strong> — zero-template multimodal document parsing using Gemini 1.5 Pro and GPT-4V, coupled with LangGraph deterministic validation state machines and automated SAP BAPI payload reconciliation.
+            <span class="terminal-marker">▶</span> Building an AI invoice automation workflow with n8n, FastAPI and Supabase, covering purchase-order and goods-receipt matching. The ERP posting step is simulated until system access is available.
           </p>
         </div>
 
         <div class="terminal-section">
           <div class="terminal-label">// MULTI-AGENT SYSTEMS R&D</div>
           <p class="terminal-val">
-            <span class="terminal-marker">▶</span> Benchmarking <strong>AegisX</strong> multi-agent directed acyclic graphs (DAGs) in LangGraph: orchestrating real-time consensus protocols, sentiment synthesis, and quantitative risk checks across high-frequency market feeds.
+            <span class="terminal-marker">▶</span> Working on AegisX, a multi-agent crypto analysis system built with LangGraph. Live demo available.
           </p>
         </div>
 
         <div class="terminal-section">
           <div class="terminal-label">// VECTOR INFRASTRUCTURE & PRODUCTION RAG</div>
           <p class="terminal-val">
-            <span class="terminal-marker">▶</span> Maintaining sub-minute freshness for <strong>Shopify RAG Sync</strong>: asynchronous catalog embedding updates using Supabase pgvector, HNSW cosine distance indices, and Celery worker pools.
+            <span class="terminal-marker">▶</span> Shopify RAG Sync: syncing Shopify catalog data into Supabase pgvector for retrieval.
           </p>
         </div>
 
         <div class="terminal-section">
           <div class="terminal-label">// AVAILABILITY & ENGAGEMENT</div>
           <p class="terminal-val text-accent-cyan">
-            <span class="terminal-marker">▶</span> Open for Senior AI Engineer, Applied Machine Learning, and Agentic Systems Architect roles with high-velocity product teams worldwide.
+            <span class="terminal-marker">▶</span> Open to AI automation and ML engineering roles, and to freelance automation projects.
           </p>
         </div>
 

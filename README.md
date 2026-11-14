@@ -1,4 +1,4 @@
-# Muhammad Hamza Azam — AI Systems Architect Portfolio
+# Muhammad Hamza Azam — AI Automation Engineer Portfolio
 
 Production portfolio showcasing applied AI systems, multi-agent architectures (LangGraph), biometric computer vision (ArcFace/RetinaFace), enterprise SAP ERP automation, and high-throughput vector retrieval (Supabase pgvector).
 
