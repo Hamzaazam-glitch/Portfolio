@@ -45,7 +45,7 @@ export class BootLoader {
         <div class="boot-brand">
           <span class="boot-tag">SYSTEM BOOT // V2.026</span>
           <span class="boot-identity">MUHAMMAD HAMZA AZAM</span>
-          <span class="boot-sub">AI SYSTEMS ARCHITECT</span>
+          <span class="boot-sub">AI AUTOMATION ENGINEER</span>
         </div>
         <div class="boot-counter-wrap">
           <div class="boot-number" id="boot-number">0<span class="boot-pct">%</span></div>

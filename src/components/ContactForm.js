@@ -8,7 +8,7 @@ export function renderContactForm(containerId) {
         <p class="eyebrow font-mono">// DIRECT INQUIRY & CONTACT</p>
         <h2 class="contact-main-heading">Let’s build mission-critical<br/><span class="text-accent-gold">AI systems together.</span></h2>
         <p class="contact-desc">
-          Open for full-time AI Engineer, Machine Learning Systems Architect, and Agentic AI roles. Whether you are architecting a multimodal automation pipeline or scaling a vector database, submit an inquiry below or connect directly.
+          Open for AI Automation Engineer, Machine Learning Engineer and Agentic AI roles. Whether you are architecting a multimodal automation pipeline or scaling a vector database, submit an inquiry below or connect directly.
         </p>
       </div>
 
