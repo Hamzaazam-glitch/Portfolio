@@ -1,0 +1,53 @@
+# MUBX.DEV REFERENCE BENCHMARK AUDIT
+**Subject:** Muhammad Hamza Azam — AI Engineer Portfolio  
+**Audit Baseline Date:** 17-09-2026 Codebase State  
+**Reference Site:** [https://mubx.dev/](https://mubx.dev/)  
+**Auditor:** Creative Lead, WebGL Engineer & AI Systems Architect
+
+---
+
+## 1. Executive Summary & Context
+
+This audit evaluates the exact state of Muhammad Hamza Azam's portfolio codebase (recovered at the 17-09-2026 checkpoint) against the benchmark quality, interaction design, aesthetic depth, and technical architecture of **mubx.dev**.
+
+### Core Directive
+The goal is **NOT** to clone Omar Mubaidin's personal identity, text, bio, or claims.  
+The goal is to match the **product experience, structural hierarchy, micro-interactions, engineering depth, and visual polish** of `mubx.dev`, while exclusively showcasing Hamza Azam's authentic, verified identity as an **AI Engineer** specializing in Machine Learning, Agentic AI, Computer Vision, and Enterprise Automation.
+
+---
+
+## 2. Comprehensive Section-by-Section Audit
+
+| Section / Capability | mubx.dev Reference Implementation | Current 17-09-2026 Portfolio State | Gap Analysis & Deficit | Required Transformation |
+| :--- | :--- | :--- | :--- | :--- |
+| **01. Initial Boot / Loader** | Full-screen boot overlay (`data-boot-cover`). Displays `0%` to `100%` counter with tabular numbers, subtle progress bar with glow, progressive technical status messages (`Initializing`, `01 Loading interface`, etc.), split-panel curtain reveal. Cached in `sessionStorage` to avoid repeat runs. | Direct browser paint. Static HTML/CSS shell appears instantly. No boot sequence, no telemetry loading, no initialization progress. | **CRITICAL DEFICIT**. Lacks the cinematic, technical first impression that establishes a high-tier engineering standard. | Implement a technical AI system initialization sequence (`0%` → `100%`, progress bar, status stages: "Initializing neural environment", "Loading vector indices", "Preparing agent pipelines", "System online", split curtain exit). |
+| **02. Navigation & Dock** | Centered floating pill navbar with 24px backdrop blur, hairline border, active pill indicator, quick resume download button, and "Book a Call" CTA. Fixed vertical floating social dock on the left with tooltip badges. | Standard fixed header bar with simple text links. No floating dock, no quick call-to-action button, no floating social dock. | **MODERATE GAP**. Functional, but lacks the floating glassmorphism and persistent social dock of the reference. | Evolve navbar into centered floating glass pill with active indicator, calendar/contact trigger, and left-aligned fixed vertical social dock with tooltips. |
+| **03. Hero Section** | Architectural kinetic typography layout ("I build, automate, improve your systems") with subtle circuit lines, glow dots, status badges, and dual CTA buttons. | Left copy with static headline, right container with 3D WebGL canvas, and 4-counter telemetry strip. | **MODERATE GAP**. Copy is technically sound, but headline layout is traditional. Needs kinetic branching typography. | Implement AI Engineer kinetic typography ("I build autonomous pipelines & production AI systems") with circuit nodes, maintaining the 3D WebGL Neural Core. |
+| **04. Hero 3D System** | WebGL canvas with ambient particles and interactive lighting. | High-quality Three.js WebGL Neural Core (`NeuralScene.js`): central nucleus, icosahedron lattice, 5 agent nodes, Bezier spline data pipelines with traveling data packets, mouse parallax. | **ALIGNED / STRONG FOUNDATION**. 3D engine is built and functional. | Preserve and refine `NeuralScene.js`: optimize mobile camera framing, add scroll-linked rotation damping, and connect visual telemetry. |
+| **05. About Section** | 4-metric top strip (`11+ Projects Shipped`, `3+ Years Coding`, etc.). Section tag `// ABOUT ME` -> "The person behind the terminal." 3-column philosophical breakdown: `// THE WHY`, `// HOW I THINK`, `// BEYOND CODE`. | Narrative copy + 3 technical "Pillars" (Multi-Agent, Financial Guardrails, Vector Indexing). | **STRUCTURAL DEFICIT**. Missing the 3-column philosophical mindset breakdown and the divided top metric strip. | Restructure into: (1) 4-metric verified stats strip, (2) `// ABOUT ME` headline "The engineer behind the systems", (3) 3 philosophical columns: `// THE WHY` (Why I Build), `// HOW I THINK` (How I Think), `// BEYOND CODE` (Beyond Code). |
+| **06. Journey Timeline** | Horizontal milestone node timeline (`2023 First Code` → `2024 MUBX Founded` → `2025 30+ Projects` → `2026 Building MUBXAI`) with connected track line. | Vertical alternating timeline cards (`Timeline.js`) with deep role descriptions. | **PRESENTATION DIFFERENCE**. Vertical cards have high detail, but horizontal milestone track is missing. | Add a high-level horizontal milestone track inspired by reference, backed by expandable detailed cards for career roles (SMIU, ML Intern, Data Science Intern, Morphelabs). |
+| **07. Currently Building** | `$ cat /now.md` terminal block displaying active projects, sprint goals, and research focus. | **COMPLETELY ABSENT**. | **CRITICAL DEFICIT**. Missing one of the most distinctive developer hallmarks of the reference. | Build `$ cat /now.md` developer terminal card displaying Hamza's live work: SAP AI Invoice Automation, AegisX LangGraph agents, and RAG vector synchronization. |
+| **08. Tech Stack Matrix** | Sticky scroll-pinned presentation with numbered categories (`01 FRONTEND`, `02 BACKEND`, etc.), primary cards with large icons, supporting badges, and continuous infinite marquee ticker. | 8-domain tabbed matrix (`TechMatrix.js`). Filterable by tab, displaying skill names and proficiency tags. | **STRUCTURAL GAP**. Matrix is thorough, but lacks numbered categories (`01 AI/ML`, `02 AGENTIC SYSTEMS`, `03 BACKEND/DATA`, `04 AUTOMATION/TOOLS`), sticky scroll pacing, and infinite marquee. | Group into 4 clean numbered categories matching user profile, add prominent core technology cards, and implement the infinite scrolling marquee ticker at section base. |
+| **09. Featured Projects** | Numbered systems (`01`, `02`...), category pills, metric badges, title, description, **simulated browser window frame** with traffic dots, URL bar, and hover-scroll preview (`duration-[6000ms]`), tech pills, external link. | Alternating cards with text description, inline mini-pipeline steps, and static screenshot. Modal trigger button. | **CRITICAL GAP**. Missing the signature simulated browser window container, lock icon URL, and smooth hover-scroll screenshot preview. | Rebuild project showcase to feature: (1) Numbered badges (`01`, `02`...), (2) Simulated browser chrome with traffic lights & simulated secure URL, (3) Hover-scrolling high-res dashboard preview, (4) Direct links + case study modal trigger. |
+| **10. Priority Projects** | Showcase of live web applications and platforms. | 5 structured flagship AI systems in `projectsData.js`: Face-Matching, SAP Invoice, AegisX, Cleaning Ops, Shopify RAG. | **ALIGNED ON DATA**. Projects are well-defined and accurately reflect senior AI engineering. | Format the 5 flagship projects into the reference's numbered browser-frame format, followed by supporting projects grid. |
+| **11. Project Case Study** | Modal / detailed project presentation. | Full-screen accessible modal (`ProjectModal.js`) with problem, impact, mechanism, and visual architecture pipeline steps. | **ALIGNED / STRONG FOUNDATION**. Modal is functional, accessible, and supports keyboard `Escape`. | Elevate modal styling to match the reference's dark luxury visual language, including copyable architecture snippets and verified latency/throughput metrics. |
+| **12. Contact System** | Contact section with CTA button, Calendly link, mailto, and social links. | Simple glass card with static mailto and social placeholders. No working contact form, no database storage, no email notification. | **CRITICAL DEFICIT**. Requirement mandates a real working contact form connected to Supabase PostgreSQL and Resend API. | Build functional contact form (`POST /api/contact`) with Supabase persistence (`contact_submissions` table) and server-side Resend email notifications. |
+| **13. Footer** | Terminal status bar (`$ omar --version 2026`), copyright, and social links. | Generic text footer. | **MINOR DEFICIT**. Lacks terminal branding and verified personal links. | Rebuild footer with `$ hamza --version 2026`, verified GitHub (`Hamzaazam-glitch`), LinkedIn (`hamzaaazam`), and email (`hamzaazam2076@gmail.com`). |
+| **14. Architecture (Vite vs Next.js)** | Next.js 15 App Router with SSR, React Server Components, server actions/API routes. | Vite 8 client-only SPA with Vanilla ES modules. | **ARCHITECTURAL DECISION REQUIRED**. Vite cannot host secure server-side API routes (Supabase/Resend) without an auxiliary backend server or serverless functions. | **Decision Point**: Option A (Vite + lightweight Express/FastAPI or Netlify/Vercel serverless function) vs. Option B (Migrate in-place to Next.js App Router). |
+| **15. Security & Secrets** | Production-ready headers, sanitized inputs, zero client-side credentials. | No server environment; placeholder links present. | **DEFICIT FOR BACKEND**. Cannot expose Supabase service keys or Resend API keys in client-side JS bundle. | Enforce strict server-side API boundary. All database operations and Resend calls must reside in secure server code with environment variables. |
+
+---
+
+## 3. Key Observations & Invariants
+
+1. **Do Not Recreate From Scratch:** The existing 17-09-2026 codebase already contains high-value assets:
+   - Complete Three.js `NeuralScene.js` (Central core, satellite nodes, Bezier splines, data packets).
+   - Lenis smooth scrolling and GSAP ScrollTrigger controller (`scrollController.js`).
+   - Verified project schemas in `projectsData.js` (Face-matching, SAP, AegisX, Shopify RAG).
+   - High-resolution generated dashboard mockups in `assets/projects/`.
+   - Comprehensive skills taxonomy in `skillsData.js`.
+2. **Honesty & Integrity Invariant:** Zero fabricated metrics. No copying of Omar Mubaidin's identity, metrics (`0.8s`, `11+ Projects`, etc.), or personal history.
+3. **MHA Identity Anchor:** Muhammad Hamza Azam is an **AI Engineer & Machine Learning Systems Architect**, graduate of **Sindh Madressatul Islam University (SMIU)**, certified in **Agentic AI** and **Data Science & AI** by **Saylani Mass IT Training (SMIT)**, and certified by **Google** in Data Analytics.
+
+---
+*Audit completed on 2026-09-20. Ready for execution upon review of PORTFOLIO_REBUILD_PLAN.md.*
