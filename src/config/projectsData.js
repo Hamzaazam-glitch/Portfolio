@@ -254,7 +254,7 @@ export const FLAGSHIP_PROJECTS = [
     alt: 'NexisCMS Headless Platform Dashboard Preview',
     status: 'Production Concept & Preview',
     repoType: 'Architecture Case Study',
-    github: null,
+    github: 'https://github.com/Hamzaazam-glitch/nexis-cms',
     demo: 'https://nexis-cms.vercel.app'
   }
 ];
