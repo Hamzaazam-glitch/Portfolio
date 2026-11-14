@@ -224,6 +224,38 @@ export const FLAGSHIP_PROJECTS = [
     repoType: 'Architecture Case Study',
     github: null,
     demo: null
+  },
+  {
+    id: 'nexis-cms',
+    number: '07',
+    category: 'Headless CMS & Content Architecture',
+    badge: 'Headless CMS Concept',
+    title: 'NexisCMS — Headless CMS Platform',
+    headline: 'Landing page and dashboard preview for a headless CMS concept: blog, service and career content management, role-based access, and an API-first approach.',
+    problem: 'Managing dynamic content across blogs, services, and career postings often requires heavy, rigid monolithic CMS setups that lack API flexibility and granular role-based access control.',
+    architecture: {
+      input: 'Structured Content, Media Assets & Role Definitions',
+      stages: [
+        { name: 'Frontend Surface', detail: 'Next.js landing experience and responsive dashboard interface' },
+        { name: 'Styling Layer', detail: 'Tailwind CSS utility architecture with responsive components' },
+        { name: 'Content Schema', detail: 'Modular schemas for blogs, service catalogs, and career listings' },
+        { name: 'Access Control', detail: 'Role-based authorization structure for content editors and administrators' },
+        { name: 'API Distribution', detail: 'API-first delivery layer for decoupled frontend consumers' }
+      ],
+      output: 'Decoupled, high-performance headless content management and delivery'
+    },
+    mechanism: 'Landing page and dashboard preview for a headless CMS concept: blog, service and career content management, role-based access, and an API-first approach.',
+    engineering: [
+      'Next.js',
+      'Tailwind CSS'
+    ],
+    impact: 'Architected a modern API-first headless CMS concept with responsive dashboard workflows and role-based content modeling.',
+    image: '/assets/projects/nexis-cms.png',
+    alt: 'NexisCMS Headless Platform Dashboard Preview',
+    status: 'Production Concept & Preview',
+    repoType: 'Architecture Case Study',
+    github: null,
+    demo: 'https://nexis-cms.vercel.app'
   }
 ];
 
